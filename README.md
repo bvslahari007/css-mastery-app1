@@ -5,7 +5,7 @@ This repository contains **App 1** built while learning CSS from the YouTube cou
 
 The project focuses on strengthening core **HTML & CSS fundamentals** through hands-on practice by building a real web interface.
 
-🔗 Course link: https://youtu.be/0hrJGWrCux0
+🔗 Course link: [!https://youtu.be/0hrJGWrCux0]
 
 ---
 
@@ -35,3 +35,12 @@ The aim was to understand how CSS properties behave in real layouts rather than 
 - Clean and readable CSS
 - Proper box-model usage
 - Beginner-friendly codebase
+
+---
+
+## Special Thanks
+
+Special thanks to **EdRoh** for creating such a clear, practical, and beginner-friendly CSS course.  
+The learn-by-building approach made complex CSS concepts much easier to understand and apply in real projects.  
+This project would not have been possible without his structured guidance and high-quality teaching.
+
