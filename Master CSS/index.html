@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Empower Young Minds</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!--NAV BAR-->
+    <nav class="nav">
+      <div class="nav__logo">
+        <img src="images/logo.png" alt="Company Logo" />
+      </div>
+      <div class="nav__links">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Programs</a>
+        <a href="#">Contact</a>
+      </div>
+      <button class="nav__button">Get Started</button>
+    </nav>
+
+    <!--HERO-->
+    <header class="hero">
+      <h1 class="hero__title">EMPOWER YOUNG MINDS</h1>
+      <p class="hero__description">
+        Discover a world of knowledge and creativity with our engaging
+        <span id="hero_highlight">innovative</span> educational resources designed to inspire and
+        empower the next generation of learners.
+      </p>
+    </header>
+
+<!--Fonts and Features Section-->
+    <section class="feature">
+      <div class="feature__container">
+        <div class="feature__item">
+          <h2 class="feature__title">Streamed Lined Communication Tools</h2>
+          <p class="feature__description">
+            Our platform offers seamless communication tools that connect educators, students, and
+            parents for a collaborative learning experience.
+          </p>
+        </div>
+
+        <div class="feature__item">
+          <h2 class="feature__title">Empower Student Learning</h2>
+          <p class="feature__description">
+            Our resources are designed to foster critical thinking, creativity, and a love for
+            learning among students of all ages.
+          </p>
+        </div>
+
+        <div class="feature__item">
+          <h2 class="feature__title">Customisable Learning</h2>
+          <p class="feature__description">
+            Tailor educational content to meet the unique needs and learning styles of each student,
+            ensuring an inclusive and effective learning environment.
+          </p>
+        </div>
+
+      </div>
+      <div class="feature__image-container">
+        <img class="feature__image" src="images/features.jpg" alt="Feature Image"
+        />
+    </section>
+
+    <!--3. Colors - Call to Action Section-->
+    <section class="cta">
+      <h3 class="cta__title">Learn more about us by contacting us</h3>
+      <p class ="cta__description">
+        Join our community of educators and learners today and unlock the full potential of
+        education with our innovative resources.
+      </p>
+      <button class="cta__button">Learn More</button>
+    </section>
+
+    <section class="video">
+      <h3 class="video__title">Grow Your Child's Future!</h3>
+      <p class="video__description">
+        Watch our video to see how our educational resources can make a difference in your child's
+        learning journey.
+      </p>
+      <div class="video__controls">
+        <button class="video__button video__button--primary">
+          <i class="fas fa-book"></i> Learn More
+        </button>
+
+        <button class="video__button video__button--secondary">
+          <i class="fas fa-play-circle"></i> Watch Video
+        </button>
+      </div>
+      <div class="video__container">
+        
+      </div>
+    </section>
+
+    <section class="programs">
+      <h2>Explore Our State of the Art Facilities Enriching Learning Experience</h2>
+      <div class="programs__cards">
+        <div class="programs__card">
+          <img class="programs__card-img" src="images/program1.jpg" alt="Learning Activity"/>
+          <h3>Engaging Extracurricular Activities for Holistics Student Developement</h3>
+          <p>
+            Our extracurricular programs are designed to foster creativity, teamwork, and personal
+            growth.
+          </p>
+          <button class="programs__button">Learn More</button>
+        </div>
+        <div class="programs__card">
+          <img class="programs__card-img" src="images/program2.jpg" alt="Academic Program"/>
+          <h3>Diverse Academic Programs Tailored to Student Interests and Goals</h3>
+          <p>
+            Our academic programs are designed to cater to diverse student interests and career
+            aspirations.
+          </p>
+          <button class="programs__button">Learn More</button>
+        </div>
+        <div class="programs__card">
+          <img class="programs__card-img" src="images/program3.jpg" alt="Teaching Staff"/>
+          <h3>Dedicated Staff Committed to Student Growth and Success</h3>
+          <p>
+            Our dedicated staff is committed to providing personalized support and guidance to help
+            students achieve their full potential.
+          </p>
+          <button class="programs__button">Learn More</button>
+        </div>
+    </section>
+
+    <section class="element">
+      <div class="element__left">
+        <img class="element__image" src="images/formimage.jpg" alt="Sign Up Image" />
+        
+      </div>
+      <div class="element__right">
+          <h2>Sign Up Today Now!</h2>
+          <p class="element__subtitle">
+            Don't miss out on the opportunity to enhance your child's learning experience with our
+            innovative educational resources. Sign up today and take the first step towards a
+            brighter future!
+          </p>
+
+          <form class="element__form">
+            <h3>Your Interests:</h3>
+            <ul class="element__list">
+              <li class="element__list-item">Web Development</li>
+              <li class="element__list-item">UI/UX Design</li>
+              <li class="element__list-item">Digital Marketing</li>
+            </ul>
+            
+            <div class="element__form-group">
+              <label for="username">Username</label>
+              <input type="text" id="username" name="username" placeholder="Enter your username" />
+            </div>
+
+            <div class="element__form-group">
+              <label for="course">Select Course</label>
+              <select id="course">
+                <option value="html">HTML & CSS</option>
+                <option value="js">Javascript</option>
+                <option value="react">React</option>
+              </select>
+            </div>
+
+            <button type="submit" class="element__button">Submit</button><form></form>
+
+          </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__content">
+        <div class="footer__logo">
+          <img src="images/logo.png" alt="Company Logo" />
+          <p>Empowering the next gen learners with innnovative educational solutions.</p>
+          <button class="footer__button">Contact Us</button>
+        </div>
+        <div class="footer__column">
+          <h4>Resources</h4>
+          <a href="#">Help Center</a>
+          <a href="#">Terms Of Use</a>
+          <a href="#">Privacy</a>
+        </div>
+        <div class="footer__column">
+          <h4>Connect With Us</h4>
+          <div class="footer__social">
+            <a href="#">Facebook</a>
+          <a href="#">Twitter</a>
+          <a href="#">Instagram</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2024 Empower Young Minds. All rights reserved.</p>
+      </div>
+    </footer>
+
+  </body>
+</html>
