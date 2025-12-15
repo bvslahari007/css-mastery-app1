@@ -5,7 +5,7 @@ This repository contains **App 1** built while learning CSS from the YouTube cou
 
 The project focuses on strengthening core **HTML & CSS fundamentals** through hands-on practice by building a real web interface.
 
-🔗 Course link: [!https://youtu.be/0hrJGWrCux0]
+🔗 Course link: [https://youtu.be/0hrJGWrCux0]
 
 ---
 
